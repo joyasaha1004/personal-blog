@@ -15,17 +15,17 @@ function App() {
 
   React.useEffect(()=>{
     AOS.init({
-      offset: 200,  // Offset from the original trigger point
-      duration: 800,  // Animation duration
-      easing: 'ease-in-out',  // Easing function
-      once: true,  // Whether animation should happen only once
-      mirror: false,  // Whether elements should animate out while scrolling past them
+      offset: 200, 
+      duration: 800, 
+      easing: 'ease-in-out',
+      once: true, 
+      mirror: false,
     })
   })
 
  
   return (
-    <div className="absolute overflow-x-hidden">
+    <div className="">
    <Navbar/>
    <Hero_Section/>
    <Subscribe/>
