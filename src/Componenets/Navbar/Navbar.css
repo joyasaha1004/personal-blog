@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+
+    .full h4{
+        @apply mb-6 font-bold hover:text-amber-400 hover:underline hover:underline-offset-4 mb-7 xl:text-[22px] xxl:text-[25px]
+    }
+}
