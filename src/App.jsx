@@ -25,7 +25,7 @@ function App() {
 
  
   return (
-    <div className="overflow-x-hidden">
+    <div className="">
    <Navbar/>
    <Hero_Section/>
    <Subscribe/>
