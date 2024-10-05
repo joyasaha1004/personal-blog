@@ -21,12 +21,12 @@ const Choice_Me = () => {
                   data-aos-duration="600"  data-aos-delay="300" >Why choose me?</h1>
                
             </div>
-             <div className="mt-96 sm:mt-[400px] md:mt-[400px] lg:mt-[420px] xl:mt-[440px]
+             <div className="mt-96 absolute sm:mt-[400px] md:mt-[400px] lg:mt-[420px] xl:mt-[440px]
              xxl:mt-[470px]">
                 <div className=" w-40 absolute h-[1px] bg-amber-600 rotate-90 -ml-[61.5px] mt-20 sm:mt-16 sm:-ml-[62.5px] lg:mt-20 lg:-ml-[64px] xl:w-72 xl:h-[2px] xl:-ml-[130px] xl:mt-32 xxl:-ml-[132px]"> </div>
                 
                 <div>
-                    <ul className="marker:text-amber-400 list-disc pl-[33px] space-y-3 reason-list px-6 -mt-3 ">
+                    <ul className=" marker:text-amber-400 list-disc pl-[33px] space-y-3 reason-list px-6 -mt-3 ">
                         <li data-aos="fade-up"
                   data-aos-duration="600"  data-aos-delay="400" >Resposive & Mobile Fast Design</li>
                         <li data-aos="fade-up"
