@@ -20,7 +20,7 @@ const Subscribe = () => {
 
          <div className="text-[12px] mt-28 text-white md:mt-7 absolute md:ml-[280px] lg:ml-[440px] xl:ml-[550px] xl:mt-10 xl:text-[17px] xxl:text-[20px] xxl:ml-[650px]">
              <input type="text" placeholder="Input Your Eamil Address" className="w-[280px] pl-2 py-2 bg-transparent border border-amber-300 border lg:w-[300px] lg:h-10 xl:w-[380px] xl:h-12 xxl:w-[450px]"></input>
-                 <button className=" h-[32px] px-2 bg-amber-300 relative -ml-[71px] cursor-pointer mt-0.5 lg:h-[36px] xl:h-[44px] xl:-ml-[93px] xxl:-ml-[107px] xxl:h-[42px] xxl:mt-0.5">Subscribe</button>
+                 <button className=" h-[32px] px-2 bg-amber-300 absolute -ml-[71px] cursor-pointer mt-0.5 lg:h-[36px] xl:h-[43px] xl:mt-0.8 xl:-ml-[93px] xxl:-ml-[107px] ">Subscribe</button>
              
                  
              
