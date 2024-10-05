@@ -124,9 +124,9 @@ const My_Blog = () => {
     return (
         <div>
             <div className="w-[300px]  font-serif mt-[80px] pb-5 sm:w-[500px] md:w-[700px]
-            lg:w-[1000px] lg:mt-[150px] xl:w-[1280px] xxl:w-[1500px] xxl:mt-[200px]">
+            lg:w-[1000px] lg:mt-[150px] xl:w-[1280px] xxl:w-[1510px] xxl:mt-[200px] overflow-x-hidden">
                <div>
-                   <h1 className="text-center text-amber-300 font-bold text-xl md:text-2xl lg:text-3xl xl:text-4xl xxl:text-5xl" data-aos="fade-up"
+                   <h1 className="text-center text-amber-300 font-bold text-2xl md:text-2xl lg:text-4xl xl:text-5xl xxl:text-6xl" data-aos="fade-up"
                   data-aos-duration="600"  data-aos-delay="300" >My Blog</h1>
                </div>
 
@@ -144,9 +144,9 @@ const My_Blog = () => {
                    <img src={data.img} alt="" className="rounded-lg h-32 w-[200px] lg:w-[250px] lg:h-44 xl:w-[300px] xl:h-52 xxl:w-[380px] xxl:h-72"/>
 
                    <div className="text-xs px-2 pt-3 text-white lg:text-sm xl:text-base">
-                       <button className="px-4 py-1 rounded-md bg-amber-400 xxl:text-xl">More</button>
+                       <button className="px-5 py-1 rounded-md bg-amber-500 xxl:text-xl  hover:bg-amber-300">More</button>
 
-                       <p className="mt-3 px-3 mb-2 lg:text-base lg:mb-5 xl:text-xl xl:mb-7 xxl:text-2xl xxl:leading-widest xxl:mt-5">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                       <p className="mt-3 px-3 mb-2 text-white lg:text-base lg:mb-5 xl:text-xl xl:mb-7 xxl:text-2xl xxl:leading-widest xxl:mt-5">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
                        <span className="text-[12px] text-gray-500 px-2 xl:text-[15px] xxl:text-[18px]">{data.span}</span>
                    </div>
                </div>

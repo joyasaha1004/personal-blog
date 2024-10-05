@@ -2,7 +2,7 @@ import React from 'react';
 
 const Subscribe = () => {
     return (
-        <div className="w-[300px] h-[300px] mt-10 relative font-serif sm:w-[500px] md:w-[700px] md:mt-16 lg:w-[1000px] overflow-x-hidden xl:w-[1280px] overflow-x-hidden xxl:w-[1500px]
+        <div className="w-[300px] h-[300px] mt-10 relative font-serif sm:w-[500px] md:w-[700px] md:mt-16 lg:w-[1000px] overflow-x-hidden xl:w-[1280px] overflow-x-hidden xxl:w-[1510px]
       ">
 
      <div className="bg-white relative w-[300px] h-[200px] px-2 shadow-lg  sm:px-28 sm:w-[500px] md:overflow-hidden
@@ -13,7 +13,7 @@ const Subscribe = () => {
 
          <div className=" py-5 absolute z-50 md:-ml-24 lg:-ml-12 xl:py-8">
 
-             <h2 className="text-lg font-bold sm:text-xl lg:text-2xl xl:text-3xl xxl:text-4xl">Subscribe to my Newsletter</h2>
+             <h2 className="text-base font-bold sm:text-xl lg:text-2xl xl:text-3xl xxl:text-4xl">Subscribe to my Newsletter</h2>
              <p className="text-xs mt-3  md:mt-2 md:text-[12px]
               md:shrink-0 lg:text-[14px] xl:text-[17px] xl:mt-3 xxl:text-[20px]">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
          </div>

@@ -65,10 +65,10 @@ const Work = () => {
      
 
     return (
-        <div className="w-[300px] relative font-serif overflow-hidden pt-[80px] sm:w-[500px] md:w-[700px] lg:w-[1000px] xl:w-[1280px] xl:mb-80 xxl:w-[1500px]  xl:mt-10 xxl:mt-16">
+        <div className="w-[300px] relative font-serif overflow-hidden pt-[80px] sm:w-[500px] md:w-[700px] lg:w-[1000px] xl:w-[1280px] xl:mb-80 xxl:w-[1510px]  xl:mt-10 xxl:mt-16">
 
 <div className="">
-           <h1 className="text-center text-amber-300 font-bold text-xl md:text-2xl lg:text-3xl xl:text-4xl xxl:text-5xl"data-aos="fade-up"
+           <h1 className="text-center text-amber-300 font-bold text-2xl md:text-2xl lg:text-4xl xl:text-5xl xxl:text-6xl"data-aos="fade-up"
                   data-aos-duration="800"  data-aos-delay="300"  >My Work</h1>
 
            <div>

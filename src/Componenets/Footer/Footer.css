@@ -7,4 +7,7 @@
     .logo i{
           @apply px-1 bg-gray-400 rounded-full text-[12px] cursor-pointer hover:bg-amber-400 hover:text-white lg:text-[15px] xl:text-[24px]
     }
+    .footer h4{
+        @apply cursor-pointer hover:text-amber-400
+    }
 }

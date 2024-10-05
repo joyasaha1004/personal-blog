@@ -34,17 +34,17 @@ const service=[{
     const Service = () => {
      
     return (
-        <div className="w-[300px] sm:w-[500px] md:w-[700px] lg:w-[1000px] font-serif overflow-x-hidden xl:w-[1280px] xl:mt-10 xxl:w-[1500px] xxl:mt-16">
+        <div className="w-[300px] sm:w-[500px] md:w-[700px] lg:w-[1000px] font-serif overflow-x-hidden xl:w-[1280px] xl:mt-10 xxl:w-[1510px] xxl:mt-16">
        
        <div className="">
-           <h1 className="text-center text-amber-300 font-bold text-xl md:text-2xl lg:text-3xl xl:text-4xl xxl:text-5xl"data-aos="fade-up"
+           <h1 className="text-center text-amber-300 font-bold text-2xl md:text-2xl lg:text-4xl xl:text-5xl xxl:text-6xl"data-aos="fade-up"
                   data-aos-duration="800"  data-aos-delay="300"  >My Services</h1>
        </div>
 
        <div className="mt-10 sm:grid grid-cols-2 lg:mt-16 xl:ml-28 xxl:mt-24"    >
            {service.map((data)=>(
 
-               <div className="px-8  group mb-10 sm:px-4 md:px-6 lg:px-10 xl:px-0"
+               <div className="px-8  group mb-[45px] sm:px-4 md:px-6 lg:px-10 xl:px-0"
                data-aos="zoom-in"
                data-aos-duration="800"  data-aos-delay="400" 
                >
