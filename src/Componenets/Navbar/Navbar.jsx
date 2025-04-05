@@ -19,35 +19,20 @@ const Navbar = () => {
 
     return (
     
-      <div className="w-[300px] overflow-hidden relative sm:w-[500px] md:w-[700px] lg:w-[1000px] xl:w-[1280px] xxl:w-[1510px] ">
-     
+      <div className="overflow-x-hidden w-full relative">
+   
+            <nav className="backdrop-blur-lg overflows-hidden bg-white/30 h-fit p-2 border-white/20 lg:flex lg:grid grid-cols-3 lg:px-4 xl:px-7
+            ">
 
-          {/* <nav className="p-5 backdrop-blur-lg bg-white/30 border-b  border-white/20  ">
-              <div>
+              <div className="flex justify-between font-bold">
 
-                  <h2 className="text-[20px] font-sans font-bold text-amber-400 lg:text-[26px] xl:text-[32px] xxl:text-[38px]">JSaha</h2>
-                  <i className="ri-menu-line lg:invisible " ></i> 
-
-              </div>
-          </nav> */}
-
-
-        
-            <nav className="backdrop-blur-lg bg-white/30  border-b  border-white/20
-             h-[50px] lg:h-[60px] xl:h-[70px] xxl:h-[80px]">
-
-              <div className="flex space-x-52 sm:space-x-96 px-3 sm:px-5 py-3 md:space-x-[590px] md:px-5 xxl:px-8">
-
-             
-                   <h2 className="text-[20px] font-sans font-bold text-amber-400 lg:text-[26px] xl:text-[32px] xxl:text-[38px]">JSaha</h2>
+                   <h2 className="font-sans  text-amber-400 text-lg sm:text-xl lg:text-2xl xl:text-3xl">JSaha</h2>
                    <i className="ri-menu-line lg:invisible " onClick={toggleMenu} ></i>
 
              </div> 
-     <div className="invisible full lg:visible lg:mt-40 lg:absolute lg:font-serif lg:flex lg:-top-36 lg:gap-12 lg:px-[490px] xl:px-[720px] xxl:-top-[140px] xxl:gap-20" 
+     <div className="hidden full relative lg:block lg:font-serif lg:flex lg:col-span-2  lg:gap-16 lg:justify-self-center lg:items-center xl:gap-20"> 
      
-     >
-               
- 
+  
                <h4 className="" data-aos="fade-up"
                   data-aos-duration="800"  data-aos-delay="300">Home</h4>
               <h4 className="" data-aos="fade-up"
@@ -64,7 +49,7 @@ const Navbar = () => {
  
               {isMenuOpen ? (
 
-   <div className="full bg-white text-black  w-[200px] h-[550px] py-20 px-6 
+   <div className="full nav-list bg-white text-black w-60 py-28  pb-72 text-center
     font-bold font-serif -top-2 right-0 z-50 fixed lg:hidden"
     data-aos="fade-left"
     data-aos-duration="900"  data-aos-delay="400"
@@ -80,7 +65,7 @@ const Navbar = () => {
        <h4 className=""  data-aos="fade-left"
       data-aos-duration="900"  data-aos-delay="800">Blog</h4>
 
-           <i className="ri-close-line text-lg top-3 right-4 absolute" onClick={cross}></i>
+           <i className="ri-close-line text-base top-4 right-4 absolute" onClick={cross}></i>
       </div>
     
 

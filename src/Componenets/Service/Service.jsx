@@ -34,31 +34,37 @@ const service=[{
     const Service = () => {
      
     return (
-        <div className="w-[300px] sm:w-[500px] md:w-[700px] lg:w-[1000px] font-serif overflow-x-hidden xl:w-[1280px] xl:mt-10 xxl:w-[1510px] xxl:mt-16">
+        <div className="w-full font-serif overflow-x-hidden lg:pt-12">
        
        <div className="">
-           <h1 className="text-center text-amber-300 font-bold text-2xl md:text-2xl lg:text-4xl xl:text-5xl xxl:text-6xl"data-aos="fade-up"
-                  data-aos-duration="800"  data-aos-delay="300"  >My Services</h1>
+           <h1 className="text-center text-amber-300 font-bold text-2xl md:text-3xl lg:text-4xl xl:text-5xl"data-aos="fade-up"
+                //   data-aos-duration="800"  data-aos-delay="300" 
+                   >My Services</h1>
        </div>
 
-       <div className="mt-10 sm:grid grid-cols-2 lg:mt-16 xl:ml-28 xxl:mt-24"    >
+       <div className="mt-10 md:grid grid-cols-2 md:mt-16 lg:mt-16 xxl:mt-24 xxl:px-4"    >
            {service.map((data)=>(
 
-               <div className="px-8  group mb-[45px] sm:px-4 md:px-6 lg:px-10 xl:px-0"
-               data-aos="zoom-in"
-               data-aos-duration="800"  data-aos-delay="400" 
+               <div className="px-4  group pb-6 sm:px-6 md:px-2 lg:px-4 "
+            //    data-aos="zoom-in"
+            //    data-aos-duration="800"  data-aos-delay="400" 
                >
                
-                  <div className="relative ">
-                      <img src={data.img} alt="" className="rounded-lg brightness-[0.3] w-[250px] h-[150px] md:w-[300px] md:h-[180px] lg:w-[400px] lg:h-[220px] xl:w-[450px] xl:h-[250px] xxl:w-[550px] xxl:h-[280px] "/>
+                  <div className="relative">
+                      <img src={data.img} alt="" className="w-full h-40 rounded-lg brightness-[0.3] lg:h-60 xl:h-72 xxl:h-80"/>
                     
-                 
-                      <p className="text-center absolute inset-x-0 top-16 text-white group-hover:hidden md:top-20 lg:text-2xl lg:top-24 lg:-ml-3 xl:-ml-28 xl:top-28 xxl:text-4xl xxl:-ml-32 xxl:top-32">{data.title}</p>
-                      </div>
+              
+                      <p className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  text-base text-white whitespace-nowrap text-center lg:text-2xl xxl:text-4xl opacity-100 group-hover:opacity-0 transition-opacity duration-300">{data.title}</p>
+                      
 
-                      <div className="border border-amber-300 w-[200px] h-[100px] mx-5 -my-[125px] absolute invisible sm:w-[180px] md:w-[250px] md:h-[120px] md:-my-[150px] md:mx-6 group-hover:visible service-list group/edit lg:w-[300px] lg:h-[150px] lg:mx-12 lg:-my-[180px] xl:w-[350px] xl:h-[180px] xl:-my-[215px] xxl:w-[470px] xxl:h-[200px] xxl:-my-[240px] xxl:mx-10">
-                          <span className="text-amber-300 absolute inset-x-[60px] top-10 w-full sm:inset-x-[50px] md:inset-x-[85px] md:top-12 hover:text-white lg:text-xl lg:inset-x-[100px] lg:top-[60px] xl:text-2xl xl:inset-x-[120px] xl:top-[75px] xxl:text-4xl xxl:inset-x-[140px] xxl:top-[80px]" >Read More</span>
-                      </div>
+                      {/* <div className="border border-amber-300 absolute invisible group-hover:visible top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  service-list group/edit ">
+                          <span className="text-amber-300 absolute hover:text-white lg:text-xl xl:text-2xl xxl:text-4xl" >Read More</span>
+                      </div> */}
+                    <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+    <div className="border border-amber-300 p-3  text-white rounded service-list">
+      <span className="text-white hover:text-amber-400 text-base lg:text-lg xl:text-xl xxl:text-2xl">Read More</span>
+    </div>
+  </div>  </div>
                
 </div>
              

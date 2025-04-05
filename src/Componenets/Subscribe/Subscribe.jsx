@@ -2,29 +2,40 @@ import React from 'react';
 
 const Subscribe = () => {
     return (
-        <div className="w-[300px] h-[300px] mt-10 relative font-serif sm:w-[500px] md:w-[700px] md:mt-16 lg:w-[1000px] xl:w-[1280px] overflow-hidden xxl:w-[1510px]
-      ">
+        <div className=" mt-10 mb-20 w-full h-fit relative font-serif md:mt-16 overflow-x-hidden md:px-2 xl:px-6">
 
-     <div className="bg-white relative w-[300px] h-[200px] px-2 shadow-lg  sm:px-28 sm:w-[500px] md:overflow-hidden
-     text-center md:flex  md:w-[680px] md:mx-2 md:rounded-lg  md:h-[150px] md:pt-5 lg:w-[880px] lg:mx-16 lg:h-[200px] lg:pt-10 xl:w-[1100px] xl:h-[230px] xl:mx-20 xxl:w-[1300px] xxl:mx-24" data-aos="fade-up"
-     data-aos-duration="800"  data-aos-delay="300" >
+     <div className="bg-white relative  lg:items-center shadow-lg h-48  w-full  text-center sm:h-40 md:flex  md:rounded-lg py-5 lg:pt-10 overflow-hidden lg:h-44"
+    //   data-aos="fade-up"
+    //  data-aos-duration="800"  data-aos-delay="300" 
+     >
 
-         <div className="w-40 h-40 rounded-full bg-amber-300 absolute -m-16 sm:w-60 sm:h-60 sm:-my-36 sm:-mx-44 lg:-mx-32 lg:-my-28 "></div>
+         <div className="w-40 h-40 z-10 text-xs rounded-full bg-amber-300 absolute -left-16 -top-16"></div>
 
-         <div className=" py-5 absolute z-50 md:-ml-24 lg:-ml-12 xl:py-8">
+         <div className="px-2 absolute left-0 right-0 z-50 lg:grid grid-cols-3 lg:px-4 lg:gap-2">
 
-             <h2 className="text-lg font-bold sm:text-xl lg:text-2xl xl:text-3xl xxl:text-4xl">Subscribe to my Newsletter</h2>
-             <p className="text-xs mt-3  md:mt-2 md:text-[12px]
-              md:shrink-0 lg:text-[14px] xl:text-[17px] xl:mt-3 xxl:text-[20px]">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+      <div className=' text-xs lg:col-span-2 lg:text-start lg:text-base xl:text-lg'>
+             <h2 className="text-lg font-bold sm:text-xl lg:text-2xl  xxl:text-3xl">Subscribe to my Newsletter</h2>
+             <p className=" mt-3 mb-5 md:mt-2 lg:flex flex-wrap xl:mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              </div>
+               <div className="justify-self-center text-xs text-gray-400  relative text-center flex mt-2 bg-white w-full mx-6 sm:w-64 lg:w-64 h-7 xl:w-80 sm:h-7 md:h-8 lg:h-10">
+               <input type="text" className="text-xs  w-full text-center border-2 border-amber-500 lg:text-base   lg:w-72  xl:text-xl " placeholder="Input your email"></input>
+              <i class="ri-mail-line absolute right-0 p-1 text-white bg-amber-500 text-sm lg:text-base md:p-1.5 lg:p-2"></i>
+              </div>
          </div>
 
-         <div className="text-[12px] mt-28 text-white md:mt-7 absolute md:ml-[280px] lg:ml-[440px] xl:ml-[550px] xl:mt-10 xl:text-[17px] xxl:text-[20px] xxl:ml-[650px]">
-             <input type="text" placeholder="Input Your Eamil Address" className="w-[280px] pl-2 py-2 bg-transparent border border-amber-300 border lg:w-[300px] lg:h-10 xl:w-[380px] xl:h-12 xxl:w-[450px]"></input>
-                 <button className=" h-[32px] px-2 bg-amber-300 absolute -ml-[71px] cursor-pointer mt-0.5 lg:h-[36px] xl:h-[43px] xl:mt-0.8 xl:-ml-[93px] xxl:-ml-[107px] ">Subscribe</button>
-             
-                 
-             
-         </div>
+         {/* <div className="text-xs text-white mt-28 md:mt-7 absolute  left-0 right-0">
+             <input type="text" placeholder=" <div className="justify-self-center text-sm text-gray-400 hover: relative text-center flex mt-2 bg-white h-7 sm:h-7 md:h-8  lg:h-9">
+                <input type="text" className="text-xs px-4 w-48 text-center md:text-base lg:text-lg md:w-60 lg:w-72 xl:text-xl " placeholder="Search"></input>" className=" bg-transparent border border-amber-300 border w-60 h-8 px-2"></input>
+                
+         
+         </div> */}
+          {/* <div className="justify-content-center text-xs text-white text-center flex mt-28 h-8 sm:h-7 md:h-8  lg:h-9"> */}
+                
+                 {/* <span className="p-1 bg-amber-300 text-center absolute right-0 cursor-pointer ">Subscribe</span> */}
+                
+                {/* <i class="ri-search-line absolute right-0 p-1 bg-black md:p-1.5 lg:p-2"></i> */}
+            {/* </div> */}
 
      </div>
             

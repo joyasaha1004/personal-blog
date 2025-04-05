@@ -5,6 +5,9 @@
 @layer components{
 
     .full h4{
-        @apply mb-6 font-bold hover:text-amber-400 hover:underline hover:underline-offset-4 mb-7 xl:text-[22px] xxl:text-[25px] cursor-pointer
+        @apply  font-semibold tracking-wide hover:text-amber-400 hover:underline hover:underline-offset-4 cursor-pointer lg:text-base xl:text-lg
+    }
+    .nav-list h4{
+        @apply mb-10
     }
 }
