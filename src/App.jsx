@@ -30,9 +30,9 @@ function App() {
     <Hero_Section/>
    <Subscribe/>
    <Service/>
-  {/* <Work/>
-   <Choice_Me/>
-   <My_Blog/>
+   <Work/>
+    {/*<Choice_Me/>
+  <My_Blog/>
    <Footer/> */}
     </div>
   )

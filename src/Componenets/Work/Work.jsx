@@ -65,15 +65,19 @@ const Work = () => {
      
 
     return (
-        <div className="w-[300px] relative font-serif overflow-hidden pt-[80px] sm:w-[500px] md:w-[700px] lg:w-[1000px] xl:w-[1280px] xl:mb-80 xxl:w-[1510px]  xl:mt-10 xxl:mt-16">
+        <div className="relative font-serif overflow-hidden w-full pt-12 lg:pt-20 xl:pt-36">
 
-<div className="">
-           <h1 className="text-center text-amber-300 font-bold text-2xl md:text-2xl lg:text-4xl xl:text-5xl xxl:text-6xl"data-aos="fade-up"
-                  data-aos-duration="800"  data-aos-delay="300"  >My Work</h1>
+<div className="pb-7">
+           <h1 className="text-center text-amber-300 font-bold text-2xl md:text-3xl lg:text-4xl xl:text-5xl"
+          //  data-aos="fade-up"
+          //         data-aos-duration="800"  data-aos-delay="300" 
+                   >My Work</h1>
 
            <div>
-               <ol className="list grid grid-cols-2 mt-4 sm:grid-cols-3 sm:mb-3 sm:mt-6 md:flex md:ml-44 md:mt-8 lg:ml-[340px] lg:mt-10 xl:ml-[450px] xl:mt-16 xxl:ml-[500px] xxl:mt-20 " data-aos="fade-up"
-                  data-aos-duration="800"  data-aos-delay="400" >
+               <ol className="list grid grid-cols-2 pt-10 sm:grid-cols-3  md:grid-cols-4 lg:pt-16 lg:flex flex-wrap lg:justify-self-center lg:gap-8 xl:gap-16" 
+              //  data-aos="fade-up"
+              //     data-aos-duration="800"  data-aos-delay="400" 
+                  >
                    <li onClick={() => handleListItemClick(0)}>All</li>
                    <li onClick={() => handleListItemClick(1)}>We Development</li>
                    <li onClick={() => handleListItemClick(2)}>Web Design</li>
@@ -82,11 +86,11 @@ const Work = () => {
                </ol>
            </div>
 
-           <div className="xxl:mt-10">
+           <div className="mt-4 xl:mt-8 xxl:mt-10">
            <Slider {...settings} ref={sliderRef}>
 
 <div >
-   <div className="grid grid-cols-2 gap-4 px-2 sm:grid-cols-3 md:px-4 xxl:gap-6">
+   <div className="grid grid-cols-2 gap-4 px-2 sm:grid-cols-3 md:px-4 ">
     
      <img src={ux_project1} className="imglist"   data-aos="fade-right"
                   data-aos-duration="1000"  data-aos-delay="500" ></img>
