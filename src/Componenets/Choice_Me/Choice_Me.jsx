@@ -27,7 +27,7 @@ const Choice_Me = () => {
              <div className="">
                 
                 <div>
-                    <ul className=" marker:text-amber-400 list-disc relative left-3 px-3 space-y-4 sm:left-7 reason-list pt-4 xl:pt-6">
+                    <ul className=" marker:text-amber-400 list-disc relative left-3 px-3 space-y-4 sm:left-5 reason-list pt-4 xl:pt-6">
                         <li data-aos="fade-up"
                   data-aos-duration="600"  data-aos-delay="400" >Resposive & Mobile Fast Design</li>
                         <li data-aos="fade-up"

@@ -21,7 +21,7 @@ const Navbar = () => {
     
       <div className="overflow-x-hidden w-full relative">
    
-            <nav className="backdrop-blur-lg overflows-hidden bg-white/30 h-fit p-2 border-white/20 lg:flex lg:grid grid-cols-3 lg:px-4 xl:px-7
+            <nav className="backdrop-blur-lg overflows-hidden bg-white/30 h-fit p-2 border-white/20 sm:px-4 lg:flex lg:grid grid-cols-3 lg:px-4 xl:px-7
             ">
 
               <div className="flex justify-between font-bold">

@@ -139,8 +139,8 @@ const My_Blog = () => {
 
            <div className="ml-6 sm:ml-2 sm:justify-items-center "data-aos="fade-up"
            data-aos-duration="600"  data-aos-delay="400"  >
-               <div className="h-64 w-52 md:w-60 lg:h-[21em] lg:w-72 xl:w-80 xl:h-[25em] xxl:w-96 xxl:h-[30em] bg-slate-800  rounded-lg ">
-                   <img src={data.img} alt="" className="rounded-lg w-52 h-32 md:w-60 lg:h-44 lg:w-72 xl:w-80 xl:h-56 xxl:w-96 xxl:h-64"/>
+               <div className="h-64 w-52 sm:w-56 md:w-60 lg:h-[21em] lg:w-72 xl:w-80 xl:h-[25em] xxl:w-96 xxl:h-[30em] bg-slate-800  rounded-lg ">
+                   <img src={data.img} alt="" className="rounded-lg w-52 h-32 sm:w-56 md:w-60 lg:h-44 lg:w-72 xl:w-80 xl:h-56 xxl:w-96 xxl:h-64"/>
 
                    <div className="text-xs px-2 pt-3 text-white lg:text-sm xl:text-base">
                        <button className="px-5 py-1 rounded-md bg-amber-500 xxl:text-xl  hover:bg-amber-300">More</button>
