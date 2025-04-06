@@ -33,7 +33,7 @@ function App() {
    <Work/>
     <Choice_Me/>
   <My_Blog/>
-  {/* <Footer/> */}
+  <Footer/>
     </div>
   )
 }
