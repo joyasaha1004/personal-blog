@@ -85,24 +85,24 @@ const My_Blog = () => {
 
          
          
-          {
-            breakpoint: 1499,
-            settings: {
-              slidesToShow: 3,
+          // {
+          //   breakpoint: 1499,
+          //   settings: {
+          //     slidesToShow: 3,
            
-            }
-          },
+          //   }
+          // },
          
           {
-            breakpoint: 999,
+            breakpoint: 1509,
             settings: {
               slidesToShow: 3,
               slidesToScroll: 1,
-                centerPadding: "40px",
+               
             }
           },
           {
-            breakpoint: 499,
+            breakpoint: 1145,
             settings: {
               slidesToShow: 2,
               slidesToScroll: 1,
@@ -111,7 +111,7 @@ const My_Blog = () => {
             }
           },
           {
-            breakpoint: 299,
+            breakpoint: 610,
             settings: {
               slidesToShow: 1,
               slidesToScroll: 1,
@@ -123,14 +123,13 @@ const My_Blog = () => {
 
     return (
         <div>
-            <div className="w-[300px]  font-serif mt-[80px] pb-5 sm:w-[500px] md:w-[700px]
-            lg:w-[1000px] lg:mt-[150px] xl:w-[1280px] xxl:w-[1510px] xxl:mt-[200px] overflow-x-hidden">
+            <div className="font-serif w-full overflow-x-hidden pt-6 pb-10 lg:pt-14">
                <div>
                    <h1 className="text-center text-amber-300 font-bold text-2xl md:text-2xl lg:text-4xl xl:text-5xl xxl:text-6xl" data-aos="fade-up"
                   data-aos-duration="600"  data-aos-delay="300" >My Blog</h1>
                </div>
 
-               <div className="mt-9 mx-7 sm:mx-7 lg:mx-12 lg:mt-16 xl:mx-16">
+               <div className="mt-9 mx-7 sm:mx-12 lg:mx-12 lg:mt-16 xl:gap-4 xl:mx-16">
                <Slider ref={slider => {
           sliderRef = slider;
         }}
@@ -138,16 +137,16 @@ const My_Blog = () => {
             
             {BlogList.map((data)=>(
 
-           <div className="ml-6 sm:ml-2 lg:ml-6 xl:ml-10 "data-aos="fade-up"
+           <div className="ml-6 sm:ml-2 sm:justify-items-center "data-aos="fade-up"
            data-aos-duration="600"  data-aos-delay="400"  >
-               <div className="w-[200px] h-64  bg-slate-800  rounded-lg lg:w-[250px] lg:h-[340px] xl:w-[300px] xl:h-[410px] xxl:w-[380px] xxl:h-[520px]">
-                   <img src={data.img} alt="" className="rounded-lg h-32 w-[200px] lg:w-[250px] lg:h-44 xl:w-[300px] xl:h-52 xxl:w-[380px] xxl:h-72"/>
+               <div className="h-64 w-52 md:w-60 lg:h-[21em] lg:w-72 xl:w-80 xl:h-[25em] xxl:w-96 xxl:h-[30em] bg-slate-800  rounded-lg ">
+                   <img src={data.img} alt="" className="rounded-lg w-52 h-32 md:w-60 lg:h-44 lg:w-72 xl:w-80 xl:h-56 xxl:w-96 xxl:h-64"/>
 
                    <div className="text-xs px-2 pt-3 text-white lg:text-sm xl:text-base">
                        <button className="px-5 py-1 rounded-md bg-amber-500 xxl:text-xl  hover:bg-amber-300">More</button>
 
-                       <p className="mt-3 px-3 mb-2 text-white lg:text-base lg:mb-5 xl:text-xl xl:mb-7 xxl:text-2xl xxl:leading-widest xxl:mt-5">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
-                       <span className="text-[12px] text-gray-500 px-2 xl:text-[15px] xxl:text-[18px]">{data.span}</span>
+                       <p className="mt-3 px-3 mb-2 text-white lg:text-base lg:mb-4 xl:text-xl xl:mb-7 xxl:text-2xl leading-relaxed xxl:mt-5">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                       <span className="text-[10px] text-gray-500 px-2 md:text-xs xl:text-sm xxl:text-base">{data.span}</span>
                    </div>
                </div>
 

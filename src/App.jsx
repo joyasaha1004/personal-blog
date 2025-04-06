@@ -32,8 +32,8 @@ function App() {
    <Service/>
    <Work/>
     <Choice_Me/>
- {/* <My_Blog/>
-   <Footer/> */}
+  <My_Blog/>
+  {/* <Footer/> */}
     </div>
   )
 }
