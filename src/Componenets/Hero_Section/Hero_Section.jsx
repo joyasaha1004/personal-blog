@@ -15,7 +15,7 @@ const Hero_Section = () => {
                 </div> 
               
        
-       <div className=" px-2 pt-7 text-xs sm:pt-10 md:pt-6 lg:text-base xl:text-lg">
+       <div className=" px-3 pt-7 text-xs sm:pt-10 md:pt-6 lg:text-base xl:text-lg">
 
                   <h1 className=" font-satisfy text-2xl text-amber-500 mb-3  sm:text-3xl
                 lg:text-4xl xl:mb-6 xxl:text-5xl"

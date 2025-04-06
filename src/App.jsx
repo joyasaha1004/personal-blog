@@ -31,8 +31,8 @@ function App() {
    <Subscribe/>
    <Service/>
    <Work/>
-    {/*<Choice_Me/>
-  <My_Blog/>
+    <Choice_Me/>
+ {/* <My_Blog/>
    <Footer/> */}
     </div>
   )
