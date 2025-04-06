@@ -27,13 +27,7 @@ const Footer = () => {
                     <span className="text-[10px] text-gray-400 lg:text-[12px] xl:text-[15px] xxl:text-[18px]
                    ">Copyright @joya saha 2020.All right reserved</span>
 
-                    {/* <div className="logo flex -right-48 sm:-right-52 top-2 gap-2 relative md:-right-[570px] lg:-right-[830px] xl:-right-[1070px] xl:gap-4 xxl:-right-[1250px]">
-                    <i class="ri-facebook-fill"></i>
-                    <i class="ri-instagram-line"></i>
-                    <i class="ri-twitter-line"></i>
-                    <i class="ri-telegram-line"></i>
-
-                    </div> */}
+                  
 
             </div>
             

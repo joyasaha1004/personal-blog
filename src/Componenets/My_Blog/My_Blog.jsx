@@ -83,15 +83,7 @@ const My_Blog = () => {
         prevArrow: <SamplePrevArrow />,
         responsive: [
 
-         
-         
-          // {
-          //   breakpoint: 1499,
-          //   settings: {
-          //     slidesToShow: 3,
-           
-          //   }
-          // },
+      
          
           {
             breakpoint: 1509,

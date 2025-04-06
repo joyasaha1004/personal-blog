@@ -69,14 +69,14 @@ const Work = () => {
 
 <div className="pb-7">
            <h1 className="text-center text-amber-300 font-bold text-2xl md:text-3xl lg:text-4xl xl:text-5xl"
-          //  data-aos="fade-up"
-          //         data-aos-duration="800"  data-aos-delay="300" 
+        data-aos="fade-up"
+                data-aos-duration="800"  data-aos-delay="300" 
                    >My Work</h1>
 
            <div>
                <ol className="list grid grid-cols-2 pt-10 sm:grid-cols-3  md:grid-cols-4 lg:pt-16 lg:flex flex-wrap lg:justify-self-center lg:gap-8 xl:gap-16" 
-              //  data-aos="fade-up"
-              //     data-aos-duration="800"  data-aos-delay="400" 
+            data-aos="fade-up"
+                data-aos-duration="800"  data-aos-delay="400" 
                   >
                    <li onClick={() => handleListItemClick(0)}>All</li>
                    <li onClick={() => handleListItemClick(1)}>We Development</li>
