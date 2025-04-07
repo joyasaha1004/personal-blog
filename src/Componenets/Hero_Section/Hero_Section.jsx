@@ -7,8 +7,8 @@ const Hero_Section = () => {
      
           
 
-       <div className="bg-amber-300 overflow-x-hidden w-full h-fit pt-20 pb-10 z-30 md:grid grid-cols-2 md:pt-12 xl:pt-20 xl:pb-16 xl:px-10">
-
+       <div className="overflow-x-hidden w-full h-fit ">
+<div className="max-w-screen-xl bg-amber-300  mx-auto pt-20 pb-10 z-30 md:grid grid-cols-2 md:pt-12 xl:pt-20 xl:pb-16 xl:px-10">
         
         <div className='w-56 h-56 border-4 rounded-full bg-white justify-self-center border-white overflow-hidden md:w-48 md:h-48 md:self-center lg:w-60 lg:h-60 xl:w-64 xl:h-64'>
                  <img src={personal_dp} className="relative  object-cover h-60 lg:h-64 xl:h-72"></img> 
@@ -17,8 +17,8 @@ const Hero_Section = () => {
        
        <div className=" px-3 pt-7 text-xs sm:pt-10 md:pt-6 lg:text-base xl:text-lg">
 
-                  <h1 className=" font-satisfy text-2xl text-amber-500 mb-3  sm:text-3xl
-                lg:text-4xl xl:mb-6 xxl:text-5xl"
+                  <h1 className=" font-satisfy text-2xl text-amber-500 mb-3 sm:text-3xl
+                lg:text-4xl xl:mb-6 2xl:text-5xl"
                   data-aos="fade-up"
                   data-aos-duration="800"  data-aos-delay="700" >I'm glad you're here!</h1>
                   <span className="font-serif text-white leading-relaxed md:leading-loose"  data-aos="fade-up"
@@ -49,7 +49,7 @@ const Hero_Section = () => {
            
               
              
-       
+       </div>
              </div>
         
     );

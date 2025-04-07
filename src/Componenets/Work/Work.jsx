@@ -67,7 +67,8 @@ const Work = () => {
     return (
         <div className="relative font-serif overflow-hidden w-full pt-12 lg:pt-20 xl:pt-36">
 
-<div className="pb-7">
+<div className="max-w-screen-xl mx-auto px-4">
+ <div className="pb-7">
            <h1 className="text-center text-amber-300 font-bold text-2xl md:text-3xl lg:text-4xl xl:text-5xl"
         data-aos="fade-up"
                 data-aos-duration="800"  data-aos-delay="300" 
@@ -86,7 +87,7 @@ const Work = () => {
                </ol>
            </div>
 
-           <div className="mt-4 xl:mt-8 xxl:mt-10">
+           <div className="mt-4 xl:mt-8 2xl:mt-10">
            <Slider {...settings} ref={sliderRef}>
 
 <div >
@@ -117,7 +118,7 @@ const Work = () => {
            </div>
 
            <div>
-                       <div className="grid grid-cols-2 gap-4 px-2 sm:grid-cols-3  xxl:px-4 xxl:gap-6">
+                       <div className="grid grid-cols-2 gap-4 px-2 sm:grid-cols-3 ">
                          <img src={web_project1} className="imglist"></img>
                          <img src={web_project2} className="imglist"></img>
                          <img src={web_project3} className="imglist"></img>
@@ -129,7 +130,7 @@ const Work = () => {
                        </div> 
 
                        <div>
-                       <div className="grid grid-cols-2 gap-4 px-2 sm:grid-cols-3  xxl:px-4 xxl:gap-6">
+                       <div className="grid grid-cols-2 gap-4 px-2 sm:grid-cols-3 ">
                          <img src={web_design1} className="imglist"></img>
                          <img src={web_design2} className="imglist"></img>
                          <img src={web_design3} className="imglist"></img>
@@ -142,7 +143,7 @@ const Work = () => {
                        </div>           
 
                        <div>
-                       <div className="grid grid-cols-2 gap-4 px-2 sm:grid-cols-3  xxl:px-4 xxl:gap-6">
+                       <div className="grid grid-cols-2 gap-4 px-2 sm:grid-cols-3 ">
                          <img src={ux_project1} className="imglist"></img>
                          <img src={ux_project2} className="imglist"></img>
                          <img src={ux_project3} className="imglist"></img>
@@ -154,7 +155,7 @@ const Work = () => {
                        </div> 
 
                   <div>
-                       <div className="grid grid-cols-2 gap-4 px-2 sm:grid-cols-3  xxl:px-4 xxl:gap-6">
+                       <div className="grid grid-cols-2 gap-4 px-2 sm:grid-cols-3 ">
                          <img src={animation_project1} className="imglist"></img>
                          <img src={animation_project2} className="imglist"></img>
                          <img src={animation_project3} className="imglist"></img>
@@ -170,6 +171,7 @@ const Work = () => {
             </Slider>
        </div>
         </div>
+        </div> 
         </div>
     );
 };

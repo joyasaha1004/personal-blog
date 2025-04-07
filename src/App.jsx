@@ -26,14 +26,14 @@ function App() {
  
   return (
     <div className="">
-   <Navbar/>
+    <Navbar/>
     <Hero_Section/>
    <Subscribe/>
    <Service/>
-   <Work/>
+    <Work/>
     <Choice_Me/>
   <My_Blog/>
-  <Footer/>
+ <Footer/>
     </div>
   )
 }

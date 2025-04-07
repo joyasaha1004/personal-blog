@@ -20,6 +20,8 @@ const Navbar = () => {
     return (
     
       <div className="overflow-x-hidden w-full relative">
+        
+        <div className="max-w-screen-xl mx-auto">
    
             <nav className="backdrop-blur-lg overflows-hidden bg-white/30 h-fit p-2 border-white/20 sm:px-4 lg:flex lg:grid grid-cols-3 lg:px-4 xl:px-7
             ">
@@ -73,7 +75,7 @@ const Navbar = () => {
               ):null}
               
   
-        </div>
+        </div></div>
 
 
     );

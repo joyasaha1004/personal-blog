@@ -2,7 +2,8 @@ import React from 'react';
 
 const Subscribe = () => {
     return (
-        <div className=" mt-10 mb-20 w-full h-fit relative font-serif md:mt-16 overflow-x-hidden md:px-2 xl:px-6">
+        <div className=" mt-10 mb-20 w-full h-fit font-serif md:mt-16 overflow-hidden md:px-2 xl:px-6">
+ <div className="max-w-screen-xl mx-auto ">
 
      <div className="bg-white relative  lg:items-center shadow-lg h-48  w-full  text-center sm:h-40 md:flex  md:rounded-lg py-5 lg:pt-10 overflow-hidden lg:h-44"
      data-aos="fade-up"
@@ -15,7 +16,7 @@ const Subscribe = () => {
 
 
       <div className=' text-xs lg:col-span-2 lg:text-start lg:text-base xl:text-lg'>
-             <h2 className="text-lg font-bold sm:text-xl lg:text-2xl  xxl:text-3xl">Subscribe to my Newsletter</h2>
+             <h2 className="text-lg font-bold sm:text-xl lg:text-2xl  2xl:text-3xl">Subscribe to my Newsletter</h2>
              <p className=" mt-3 mb-5 md:mt-2 lg:flex flex-wrap xl:mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
               </div>
                <div className="justify-self-center text-xs text-gray-400  relative text-center flex mt-2 bg-white w-full mx-6 sm:w-64 lg:w-64 h-7 xl:w-80 sm:h-7 md:h-8 lg:h-10">
@@ -28,7 +29,7 @@ const Subscribe = () => {
 
      </div>
             
-        </div>
+        </div></div>
     );
 };
 
