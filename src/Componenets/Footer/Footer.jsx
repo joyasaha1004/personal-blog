@@ -3,8 +3,8 @@ import "./Footer.css"
 
 const Footer = () => {
     return (
-        <div className=" overflow-x-hidden">
-            <div className="max-w-screen-xl mx-auto bg-slate-800 pt-4 font-serif  text-center  xl:pt-6">
+        <div className=" bg-slate-800 pt-4 font-serif  text-center  xl:pt-6 overflow-x-hidden">
+            <div className="max-w-screen-xl mx-auto">
 
                 <h1 className=" font-sans font-bold text-amber-400 text-lg sm:text-xl lg:text-2xl xl:text-3xl">JSaha</h1>
 
