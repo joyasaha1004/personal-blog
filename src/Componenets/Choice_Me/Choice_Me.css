@@ -6,6 +6,6 @@
 @layer components{
   
     .reason-list li{
-        @apply text-sm sm:text-base lg:text-lg xl:text-xl 
+        @apply text-sm lg:text-lg xl:text-xl 
     }
 }
