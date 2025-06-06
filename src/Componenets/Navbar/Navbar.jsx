@@ -19,11 +19,11 @@ const Navbar = () => {
 
     return (
     
-      <div className="overflow-x-hidden w-full relative">
+      <div className="overflow-hidden w-full relative">
         
         <div className="max-w-screen-xl mx-auto">
    
-            <nav className="backdrop-blur-lg overflows-hidden bg-white/30 h-fit p-2 border-white/20 sm:px-4 lg:flex lg:justify-between lg:px-4 xl:px-7
+            <nav className="backdrop-blur-lg  relative bg-white/30 h-fit p-2 border-white/20 sm:px-4 lg:flex lg:justify-between lg:px-4 xl:px-7
             ">
 
               <div className="flex justify-between font-bold">
@@ -32,9 +32,9 @@ const Navbar = () => {
                    <i className="ri-menu-line lg:invisible " onClick={toggleMenu} ></i>
 
              </div> 
-     <div className="hidden full relative lg:block lg:font-serif   lg:items-center "> 
+     <div className="hidden full lg:block lg:font-serif "> 
      
-           <div className='lg:col-span-2 lg:gap-16 xl:gap-20 lg:flex lg:justify-self-center'>
+           <div className='lg:col-span-2 lg:gap-16 xl:gap-20 lg:flex lg:justify-items-center lg:items-center'>
                <h4 className="" data-aos="fade-up"
                   data-aos-duration="800"  data-aos-delay="300">Home</h4>
               <h4 className="" data-aos="fade-up"
