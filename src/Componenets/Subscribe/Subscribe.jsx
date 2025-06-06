@@ -15,15 +15,17 @@ const Subscribe = () => {
          <div className="px-2 absolute left-0 right-0 z-50 lg:grid grid-cols-3 lg:px-4 lg:gap-2">
 
 
-      <div className=' text-xs lg:col-span-2 lg:text-start lg:text-base xl:text-lg'>
+      <div className=' text-xs lg:col-span-2 lg:text-start lg:text-base  xl:text-lg '>
              <h2 className="text-lg font-bold sm:text-xl lg:text-2xl  2xl:text-3xl">Subscribe to my Newsletter</h2>
              <p className=" mt-3 mb-5 md:mt-2 lg:flex flex-wrap xl:mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
               </div>
-               <div className="justify-self-center text-xs text-gray-400  relative text-center flex mt-2 bg-white w-full mx-6 sm:w-64 lg:w-64 h-7 xl:w-80 sm:h-7 md:h-8 lg:h-10">
-               <input type="text" className="text-xs  w-full text-center border-2 border-amber-500 lg:text-base   lg:w-72  xl:text-xl " placeholder="Input your email"></input>
+
+              <div className='w-full flex justify-center'>
+               <div className=" text-xs text-gray-400 relative text-center mt-2 bg-white w-full sm:w-60 lg:w-64 flex xl:w-80 sm:h-7 md:h-8 lg:h-10">
+               <input type="text" className="text-xs  w-full text-center border-2 border-amber-500 lg:text-base h-7 sm:h-8 lg:h-10 lg:w-80  xl:text-xl " placeholder="Input your email"></input>
               <i class="ri-mail-line absolute right-0 p-1 text-white bg-amber-500 text-sm lg:text-base md:p-1.5 lg:p-2"></i>
               </div>
-         </div>
+         </div></div>
 
        
 

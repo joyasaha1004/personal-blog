@@ -61,36 +61,7 @@ const service=[{
   </div>
 
 
-       {/* <div className="">
-           <h1 className="text-center text-amber-300 font-bold text-2xl md:text-3xl lg:text-4xl xl:text-5xl"data-aos="fade-up"
-                   data-aos-duration="800"  data-aos-delay="300" 
-                   >My Services</h1>
-       </div>
-
-       <div className="mt-10 md:grid grid-cols-2 md:mt-16 lg:mt-16 xxl:mt-24 xxl:px-4"    >
-           {service.map((data)=>(
-
-               <div className="px-4  group pb-6 sm:px-6 md:px-2 lg:px-4 "
-                data-aos="zoom-in"
-                data-aos-duration="800"  data-aos-delay="400" 
-               >
-               
-                  <div className="relative">
-                      <img src={data.img} alt="" className="w-full h-40 rounded-lg brightness-[0.3] lg:h-60 xl:h-72 xxl:h-80"/>
-                    
-              
-                      <p className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  text-base text-white whitespace-nowrap text-center lg:text-2xl xxl:text-4xl opacity-100 group-hover:opacity-0 transition-opacity duration-300">{data.title}</p>
-                      
-                    <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-    <div className="border border-amber-300 p-3  text-white rounded service-list">
-      <span className="text-white hover:text-amber-400 text-base lg:text-lg xl:text-xl xxl:text-2xl">Read More</span>
-    </div>
-  </div>  </div>
-               
-</div>
-             
-           ))}
-       </div> */}
+     
         </div>
     );
 };

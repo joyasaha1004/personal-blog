@@ -103,7 +103,7 @@ const My_Blog = () => {
             }
           },
           {
-            breakpoint: 610,
+            breakpoint: 499,
             settings: {
               slidesToShow: 1,
               slidesToScroll: 1,
@@ -121,18 +121,18 @@ const My_Blog = () => {
                   data-aos-duration="600"  data-aos-delay="300" >My Blog</h1>
                </div>
 
-               <div className="mt-9 mx-7 sm:mx-12 lg:mt-16 xl:gap-4 xl:mx-16">
+               <div className="flex align-center justify-center w-full  mt-10 lg:mt-16 ">
                <Slider ref={slider => {
           sliderRef = slider;
         }}
-        {...settings} className="lg:gap-20">
+        {...settings} className="w-[80%] sm:w-[60%]  md:w-[80%] xl:w-[90%] gap-10 ">
             
-            {BlogList.map((data)=>(
+            {BlogList.map((data,i)=>(
 
-           <div className="ml-6 sm:ml-2 sm:justify-items-center "data-aos="fade-up"
+           <div key={i} className="relative px-3" data-aos="fade-up"
            data-aos-duration="600"  data-aos-delay="400"  >
-               <div className="h-64 w-52 sm:w-56 md:w-60 lg:h-[22em] lg:w-72 xl:w-64 xl:h-[23em] bg-slate-800  rounded-lg ">
-                   <img src={data.img} alt="" className="rounded-lg w-52 h-32 sm:w-56 md:w-60 lg:h-44 lg:w-72 xl:w-64 "/>
+               <div className="h-fit pb-4 relative  lg:h-[22em] xl:w-64 xl:h-[23em] bg-slate-800  rounded-lg ">
+                   <img src={data.img} alt="" className="rounded-lg w-full h-32 sm:w- lg:h-44  xl:w-64 "/>
 
                    <div className="text-xs px-2 pt-3 text-white lg:text-sm xl:text-base">
                        <button className="px-5 py-1 rounded-md bg-amber-500   hover:bg-amber-300">More</button>

@@ -32,9 +32,9 @@ const Navbar = () => {
                    <i className="ri-menu-line lg:invisible " onClick={toggleMenu} ></i>
 
              </div> 
-     <div className="hidden full relative lg:block lg:font-serif lg:flex lg:col-span-2  lg:gap-16 lg:justify-self-center lg:items-center xl:gap-20"> 
+     <div className="hidden full relative lg:block lg:font-serif   lg:items-center "> 
      
-  
+           <div className='lg:col-span-2 lg:gap-16 xl:gap-20 lg:flex lg:justify-self-center'>
                <h4 className="" data-aos="fade-up"
                   data-aos-duration="800"  data-aos-delay="300">Home</h4>
               <h4 className="" data-aos="fade-up"
@@ -45,7 +45,7 @@ const Navbar = () => {
                   data-aos-duration="800"  data-aos-delay="600" >Blog</h4>
 
            
-              </div>
+              </div></div>
               </nav>
              
  
