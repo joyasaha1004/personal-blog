@@ -8,7 +8,7 @@ const Hero_Section = () => {
           
 
        <div className="overflow-x-hidden w-full h-fit ">
-<div className="max-w-screen-xl bg-amber-300  mx-auto pt-20 pb-10 z-30 md:grid grid-cols-2 md:pt-12 xl:pt-20 xl:pb-16 xl:px-10">
+<div className="max-w-screen-xl bg-amber-300  mx-auto pt-20 pb-10 z-30 md:grid grid-cols-2 md:pt-12 lg:pt-20 lg:pb-16 xl:px-10">
         
         <div className='w-full flex justify-center'>
         <div className='w-56 h-56 border-4 rounded-full bg-white  border-white overflow-hidden md:w-48 md:h-48 md:self-center lg:w-60 lg:h-60 xl:w-64 xl:h-64'>

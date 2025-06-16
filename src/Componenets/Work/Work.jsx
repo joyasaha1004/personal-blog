@@ -75,7 +75,7 @@ const Work = () => {
                    >My Work</h1>
 
            <div>
-               <ol className="list grid grid-cols-2 pt-10 sm:grid-cols-3  md:grid-cols-4 lg:pt-16 lg:flex flex-wrap lg:justify-self-center lg:gap-8 xl:gap-16" 
+               <ol className="list grid grid-cols-2 pt-10 sm:gap-4  md:flex flex-wrap lg:pt-16  lg:justify-self-center md:gap-8 lg:gap-10" 
             data-aos="fade-up"
                 data-aos-duration="800"  data-aos-delay="400" 
                   >

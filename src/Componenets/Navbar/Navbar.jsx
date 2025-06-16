@@ -19,11 +19,11 @@ const Navbar = () => {
 
     return (
     
-      <div className="overflow-hidden w-full relative">
+      <div className="overflow-hidden w-full relative"> 
         
         <div className="max-w-screen-xl mx-auto">
    
-            <nav className="backdrop-blur-lg  relative bg-white/30 h-fit p-2 border-white/20 sm:px-4 lg:flex lg:justify-between lg:px-4 xl:px-7
+            <nav className="backdrop-blur-lg  relative bg-white/30 h-fit p-2 border-white/20 sm:px-4 lg:flex lg:justify-between items-center lg:px-4 xl:px-7
             ">
 
               <div className="flex justify-between font-bold">
@@ -34,7 +34,7 @@ const Navbar = () => {
              </div> 
      <div className="hidden full lg:block lg:font-serif "> 
      
-           <div className='lg:col-span-2 lg:gap-16 xl:gap-20 lg:flex lg:justify-items-center lg:items-center'>
+           <div className='lg:col-span-2 lg:gap-16 xl:gap-20 lg:flex '>
                <h4 className="" data-aos="fade-up"
                   data-aos-duration="800"  data-aos-delay="300">Home</h4>
               <h4 className="" data-aos="fade-up"
