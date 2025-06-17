@@ -23,7 +23,7 @@ const Subscribe = () => {
               <div className='w-full flex justify-center'>
                <div className=" text-xs text-gray-400 relative text-center mt-2 bg-white w-full sm:w-60 lg:w-64 flex xl:w-80 sm:h-7 md:h-8 lg:h-10">
                <input type="text" className="text-xs  w-full text-center border-2 border-amber-500 lg:text-base h-7 sm:h-8 lg:h-10 lg:w-80  xl:text-xl " placeholder="Input your email"></input>
-              <i class="ri-mail-line absolute right-0 p-1 text-white bg-amber-500 text-sm lg:text-base md:p-1.5 lg:p-2"></i>
+              <i class="ri-mail-line absolute right-0 p-1 text-white bg-amber-500 text-sm lg:text-base sm:p-1.5 lg:p-2"></i>
               </div>
          </div></div>
 
