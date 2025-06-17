@@ -125,7 +125,7 @@ const My_Blog = () => {
                <Slider ref={slider => {
           sliderRef = slider;
         }}
-        {...settings} className="w-[80%] sm:w-[60%]  md:w-[80%] xl:w-[90%] gap-10 ">
+        {...settings} className="w-[80%] sm:w-[70%]  md:w-[80%] xl:w-[90%] gap-10 ">
             
             {BlogList.map((data,i)=>(
 
